@@ -1,0 +1,76 @@
+{
+  "rateOfInterest": {
+    "textColor": "#000000",
+    "textSize": 14,
+    "labelText": "Rate of Interest",
+    "values": [
+      {"value": 1, "label": "1%"},
+      {"value": 2, "label": "2%"},
+      {"value": 3, "label": "3%"},
+      {"value": 4, "label": "4%"},
+      {"value": 5, "label": "5%"},
+      {"value": 6, "label": "6%"},
+      {"value": 7, "label": "7%"},
+      {"value": 8, "label": "8%"},
+      {"value": 9, "label": "9%"},
+      {"value": 10, "label": "10%"},
+      {"value": 11, "label": "11%"},
+      {"value": 12, "label": "12%"},
+      {"value": 13, "label": "13%"},
+      {"value": 14, "label": "14%"},
+      {"value": 15, "label": "15%"}
+    ]
+  },
+  "principalAmount": {
+    "hintText": "Enter Principal Amount",
+    "textColor": "#000000",
+    "textSize": 14,
+    "minAmount": {
+      "1": 10000,
+      "2": 10000,
+      "3": 10000,
+      "4": 50000,
+      "5": 50000,
+      "6": 50000,
+      "7": 50000,
+      "8": 75000,
+      "9": 75000,
+      "10": 75000,
+      "11": 75000,
+      "12": 75000,
+      "13": 100000,
+      "14": 100000,
+      "15": 100000
+    },
+    "maxAmount": 10000000,
+    "errorMessage": "Principal amount must be between the defined limits"
+  },
+  "timesToCompound": {
+    "labelText": "Times to Compound per Year",
+    "textColor": "#000000",
+    "textSize": 14,
+    "values": {
+      "1": [1],
+      "2": [2],
+      "3": [4],
+      "default": [1, 2, 4]
+    }
+  },
+  "numberOfYears": {
+    "labelText": "Number of Years",
+    "textColor": "#000000",
+    "textSize": 14,
+    "values": {
+      "1": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "2": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "4": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+      "default": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+    }
+  },
+  "output": {
+    "textColor": "#000000",
+    "labelText": "Future Value",
+    "textSize": 14,
+    "modeOfDisplay": ["snack-bar", "popup", "text-field"]
+  }
+}
